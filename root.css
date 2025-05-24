@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'VCR OSD Mono';
+    src: url('https://github.com/MoutonDemocrate/Hypergetic-Acid/blob/main/VCR_OSD_MONO.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+root {
+  --primary : #9C01EC ;
+  --secondary : #410064 ;
+  --tertiary : #31004c ;
+  --accent : #00FF88 ;
+  
+  --background-dark : #000000 ;
+  --background: #0d0014 ;
+  --background-light : #1b0029 ;
+
+  --text-primary : white ;
+  --text-secondary : #a9a9a9 ;
+  --text-accent : var(--accent) ;
+  
+  font-family : VCR OSD Mono ;
+}
